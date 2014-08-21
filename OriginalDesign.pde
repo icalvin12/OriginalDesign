@@ -1,9 +1,12 @@
 void setup()
 {
-
+  size(300,300);
 }
+
 void draw()
 {
-  ellipse(50,50,50,50);
+  fill(255,0,0);
+  rectMode(CENTER);
+  rect(150,150,5,5);
 }
 
